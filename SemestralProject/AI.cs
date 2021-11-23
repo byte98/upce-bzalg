@@ -460,119 +460,119 @@ namespace Piškvorky
             Random rnd = new Random();
             if (muzePCvyhrat(pole, znacka, moznaPole) == false)
             {
-                if (pole[0][0] == pole[0][1] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("A3") == true)
+                //if (pole[0][0] == pole[0][1] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("A3") == true)
                     souradnice = "A3";
-                else if (pole[0][0] == pole[0][2] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("A2") == true)
+                //else if (pole[0][0] == pole[0][2] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("A2") == true)
                     souradnice = "A2";
-                else if (pole[0][1] == pole[0][2] & pole[0][1] == znacka.znackaHrac & moznaPole.Contains("A1") == true)
+                //else if (pole[0][1] == pole[0][2] & pole[0][1] == znacka.znackaHrac & moznaPole.Contains("A1") == true)
                     souradnice = "A1";
-                else if (pole[1][0] == pole[1][1] & pole[1][0] == znacka.znackaHrac & moznaPole.Contains("B3") == true)
+                //else if (pole[1][0] == pole[1][1] & pole[1][0] == znacka.znackaHrac & moznaPole.Contains("B3") == true)
                     souradnice = "B3";
-                else if (pole[1][0] == pole[1][2] & pole[1][0] == znacka.znackaHrac & moznaPole.Contains("B2") == true)
+                //else if (pole[1][0] == pole[1][2] & pole[1][0] == znacka.znackaHrac & moznaPole.Contains("B2") == true)
                     souradnice = "B2";
-                else if (pole[1][1] == pole[1][2] & pole[1][1] == znacka.znackaHrac & moznaPole.Contains("B1") == true)
+                //else if (pole[1][1] == pole[1][2] & pole[1][1] == znacka.znackaHrac & moznaPole.Contains("B1") == true)
                     souradnice = "B1";
-                else if (pole[2][0] == pole[2][1] & pole[2][0] == znacka.znackaHrac & moznaPole.Contains("C3") == true)
+                //else if (pole[2][0] == pole[2][1] & pole[2][0] == znacka.znackaHrac & moznaPole.Contains("C3") == true)
                     souradnice = "C3";
-                else if (pole[2][0] == pole[2][2] & pole[2][0] == znacka.znackaHrac & moznaPole.Contains("C2") == true)
+                //else if (pole[2][0] == pole[2][2] & pole[2][0] == znacka.znackaHrac & moznaPole.Contains("C2") == true)
                     souradnice = "C2";
-                else if (pole[2][1] == pole[2][2] & pole[2][1] == znacka.znackaHrac & moznaPole.Contains("C1") == true)
+                //else if (pole[2][1] == pole[2][2] & pole[2][1] == znacka.znackaHrac & moznaPole.Contains("C1") == true)
                     souradnice = "C1";
-                else if (pole[0][0] == pole[1][0] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("C1") == true)
+                //else if (pole[0][0] == pole[1][0] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("C1") == true)
                     souradnice = "C1";
-                else if (pole[0][0] == pole[2][0] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("B1") == true)
+                //else if (pole[0][0] == pole[2][0] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("B1") == true)
                     souradnice = "B1";
-                else if (pole[1][0] == pole[2][0] & pole[1][0] == znacka.znackaHrac & moznaPole.Contains("A1") == true)
+                //else if (pole[1][0] == pole[2][0] & pole[1][0] == znacka.znackaHrac & moznaPole.Contains("A1") == true)
                     souradnice = "A1";
-                else if (pole[0][1] == pole[1][1] & pole[0][1] == znacka.znackaHrac & moznaPole.Contains("C2") == true)
+                //else if (pole[0][1] == pole[1][1] & pole[0][1] == znacka.znackaHrac & moznaPole.Contains("C2") == true)
                     souradnice = "C2";
-                else if (pole[0][1] == pole[2][1] & pole[0][1] == znacka.znackaHrac & moznaPole.Contains("B2") == true)
+                //else if (pole[0][1] == pole[2][1] & pole[0][1] == znacka.znackaHrac & moznaPole.Contains("B2") == true)
                     souradnice = "B2";
-                else if (pole[1][1] == pole[2][1] & pole[1][1] == znacka.znackaHrac & moznaPole.Contains("A2") == true)
+                //else if (pole[1][1] == pole[2][1] & pole[1][1] == znacka.znackaHrac & moznaPole.Contains("A2") == true)
                     souradnice = "A2";
-                else if (pole[0][2] == pole[1][2] & pole[0][2] == znacka.znackaHrac & moznaPole.Contains("C3") == true)
+                //else if (pole[0][2] == pole[1][2] & pole[0][2] == znacka.znackaHrac & moznaPole.Contains("C3") == true)
                     souradnice = "C3";
-                else if (pole[0][2] == pole[2][2] & pole[0][2] == znacka.znackaHrac & moznaPole.Contains("B3") == true)
+                //else if (pole[0][2] == pole[2][2] & pole[0][2] == znacka.znackaHrac & moznaPole.Contains("B3") == true)
                     souradnice = "B3";
-                else if (pole[1][2] == pole[2][2] & pole[1][2] == znacka.znackaHrac & moznaPole.Contains("A3") == true)
+                //else if (pole[1][2] == pole[2][2] & pole[1][2] == znacka.znackaHrac & moznaPole.Contains("A3") == true)
                     souradnice = "A3";
-                else if (pole[0][0] == pole[1][1] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("C3") == true)
+                //else if (pole[0][0] == pole[1][1] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("C3") == true)
                     souradnice = "C3";
-                else if (pole[0][0] == pole[2][2] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("B2") == true)
+                //else if (pole[0][0] == pole[2][2] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("B2") == true)
                     souradnice = "B2";
-                else if (pole[1][1] == pole[2][2] & pole[1][1] == znacka.znackaHrac & moznaPole.Contains("A1") == true)
+                // if (pole[1][1] == pole[2][2] & pole[1][1] == znacka.znackaHrac & moznaPole.Contains("A1") == true)
                     souradnice = "A1";
-                else if (pole[0][2] == pole[1][1] & pole[0][2] == znacka.znackaHrac & moznaPole.Contains("C1") == true)
+                //else if (pole[0][2] == pole[1][1] & pole[0][2] == znacka.znackaHrac & moznaPole.Contains("C1") == true)
                     souradnice = "C1";
-                else if (pole[0][2] == pole[2][0] & pole[0][2] == znacka.znackaHrac & moznaPole.Contains("B2") == true)
+                //else if (pole[0][2] == pole[2][0] & pole[0][2] == znacka.znackaHrac & moznaPole.Contains("B2") == true)
                     souradnice = "B2";
-                else if (pole[2][0] == pole[1][1] & pole[1][1] == znacka.znackaHrac & moznaPole.Contains("A3") == true)
+                //else if (pole[2][0] == pole[1][1] & pole[1][1] == znacka.znackaHrac & moznaPole.Contains("A3") == true)
                     souradnice = "A3";
-                else if (pole[1][1] == pole[2][2] & pole[2][2] == znacka.znackaHrac & moznaPole.Contains("A3") == true & platiMedIHard(obtiznost) == true)
+                //else if (pole[1][1] == pole[2][2] & pole[2][2] == znacka.znackaHrac & moznaPole.Contains("A3") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "A3";
-                else if (pole[1][1] == pole[2][0] & pole[2][0] == znacka.znackaHrac & moznaPole.Contains("A1") == true & platiMedIHard(obtiznost) == true)
+                //else if (pole[1][1] == pole[2][0] & pole[2][0] == znacka.znackaHrac & moznaPole.Contains("A1") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "A1";
-                else if (pole[1][1] == pole[0][0] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("C1") == true & platiMedIHard(obtiznost) == true)
+                //else if (pole[1][1] == pole[0][0] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("C1") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "C1";
-                else if (pole[1][1] == pole[0][2] & pole[0][2] == znacka.znackaHrac & moznaPole.Contains("C3") == true & platiMedIHard(obtiznost) == true)
+                //else if (pole[1][1] == pole[0][2] & pole[0][2] == znacka.znackaHrac & moznaPole.Contains("C3") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "C3";
-                else if (pole[1][1] == pole[2][0] & pole[2][0] == znacka.znackaHrac & moznaPole.Contains("A2") == true & platiMedIHard(obtiznost) == true)
+                //else if (pole[1][1] == pole[2][0] & pole[2][0] == znacka.znackaHrac & moznaPole.Contains("A2") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "A2";
-                else if (pole[1][1] == pole[2][2] & pole[2][2] == znacka.znackaHrac & moznaPole.Contains("A2") == true & platiMedIHard(obtiznost) == true)
+                //else if (pole[1][1] == pole[2][2] & pole[2][2] == znacka.znackaHrac & moznaPole.Contains("A2") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "A2";
-                else if (pole[1][1] == pole[0][0] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("C2") == true & platiMedIHard(obtiznost) == true)
+                //else if (pole[1][1] == pole[0][0] & pole[0][0] == znacka.znackaHrac & moznaPole.Contains("C2") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "A2";
-                else if (pole[1][1] == pole[0][2] & pole[0][2] == znacka.znackaHrac & moznaPole.Contains("C2") == true & platiMedIHard(obtiznost) == true)
+                //else if (pole[1][1] == pole[0][2] & pole[0][2] == znacka.znackaHrac & moznaPole.Contains("C2") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "A2";
-                else if (pole[2][0] == pole[0][1] & pole[0][1] == znacka.znackaHrac & moznaPole.Contains("A1") & obtiznost == "hard")
+                //else if (pole[2][0] == pole[0][1] & pole[0][1] == znacka.znackaHrac & moznaPole.Contains("A1") & obtiznost == "hard")
                     souradnice = "A1";
-                else if (pole[0][0] == pole[1][2] & pole[1][2] == znacka.znackaHrac & moznaPole.Contains("A3") & obtiznost == "hard")
+                //else if (pole[0][0] == pole[1][2] & pole[1][2] == znacka.znackaHrac & moznaPole.Contains("A3") & obtiznost == "hard")
                     souradnice = "A3";
-                else if (pole[0][2] == pole[2][1] & pole[2][1] == znacka.znackaHrac & moznaPole.Contains("C3") & obtiznost == "hard")
+                //else if (pole[0][2] == pole[2][1] & pole[2][1] == znacka.znackaHrac & moznaPole.Contains("C3") & obtiznost == "hard")
                     souradnice = "C3";
-                else if (pole[2][2] == pole[1][0] & pole[1][0] == znacka.znackaHrac & moznaPole.Contains("C1") & obtiznost == "hard")
+                //else if (pole[2][2] == pole[1][0] & pole[1][0] == znacka.znackaHrac & moznaPole.Contains("C1") & obtiznost == "hard")
                     souradnice = "C1";
-                else if (moznaPole.Contains("B2") == false & moznaPole.Contains("A1") == false & moznaPole.Contains("A2") == true & platiMedIHard(obtiznost) == true)
+                //else if (moznaPole.Contains("B2") == false & moznaPole.Contains("A1") == false & moznaPole.Contains("A2") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "A2";
-                else if (moznaPole.Contains("B2") == false & moznaPole.Contains("A3") == false & moznaPole.Contains("A2") == true & platiMedIHard(obtiznost) == true)
+                //else if (moznaPole.Contains("B2") == false & moznaPole.Contains("A3") == false & moznaPole.Contains("A2") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "A2";
-                else if (moznaPole.Contains("B2") == false & moznaPole.Contains("C1") == false & moznaPole.Contains("C2") == true & platiMedIHard(obtiznost) == true)
+                //else if (moznaPole.Contains("B2") == false & moznaPole.Contains("C1") == false & moznaPole.Contains("C2") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "C2";
-                else if (moznaPole.Contains("B2") == false & moznaPole.Contains("C3") == false & moznaPole.Contains("C2") == true & platiMedIHard(obtiznost) == true)
+                //else if (moznaPole.Contains("B2") == false & moznaPole.Contains("C3") == false & moznaPole.Contains("C2") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "C2";
-                else if (moznaPole.Contains("C1") == false & moznaPole.Contains("A2") == false & moznaPole.Contains("B1") == true & obtiznost == "hard")
+                //else if (moznaPole.Contains("C1") == false & moznaPole.Contains("A2") == false & moznaPole.Contains("B1") == true & obtiznost == "hard")
                     souradnice = "B1";
-                else if (moznaPole.Contains("C3") == false & moznaPole.Contains("A2") == false & moznaPole.Contains("B3") == true & obtiznost == "hard")
+                //else if (moznaPole.Contains("C3") == false & moznaPole.Contains("A2") == false & moznaPole.Contains("B3") == true & obtiznost == "hard")
                     souradnice = "B3";
-                else if (moznaPole.Contains("C1") == false & moznaPole.Contains("B3") == false & moznaPole.Contains("C2") == true & obtiznost == "hard")
+                //else if (moznaPole.Contains("C1") == false & moznaPole.Contains("B3") == false & moznaPole.Contains("C2") == true & obtiznost == "hard")
                     souradnice = "C2";
-                else if (moznaPole.Contains("A1") == false & moznaPole.Contains("B3") == false & moznaPole.Contains("A2") == true & obtiznost == "hard")
+                //else if (moznaPole.Contains("A1") == false & moznaPole.Contains("B3") == false & moznaPole.Contains("A2") == true & obtiznost == "hard")
                     souradnice = "A2";
-                else if (moznaPole.Contains("A1") == false & moznaPole.Contains("C2") == false & moznaPole.Contains("B1") == true & obtiznost == "hard")
+                //else if (moznaPole.Contains("A1") == false & moznaPole.Contains("C2") == false & moznaPole.Contains("B1") == true & obtiznost == "hard")
                     souradnice = "B1";
-                else if (moznaPole.Contains("A3") == false & moznaPole.Contains("C2") == false & moznaPole.Contains("B3") == true & obtiznost == "hard")
+                //else if (moznaPole.Contains("A3") == false & moznaPole.Contains("C2") == false & moznaPole.Contains("B3") == true & obtiznost == "hard")
                     souradnice = "B3";
-                else if (moznaPole.Contains("A3") == false & moznaPole.Contains("B1") == false & moznaPole.Contains("A2") == true & obtiznost == "hard")
+                //else if (moznaPole.Contains("A3") == false & moznaPole.Contains("B1") == false & moznaPole.Contains("A2") == true & obtiznost == "hard")
                     souradnice = "A2";
-                else if (moznaPole.Contains("C3") == false & moznaPole.Contains("B1") == false & moznaPole.Contains("C2") == true & obtiznost == "hard")
+                //else if (moznaPole.Contains("C3") == false & moznaPole.Contains("B1") == false & moznaPole.Contains("C2") == true & obtiznost == "hard")
                     souradnice = "C2";
-                else if (moznaPole.Contains("B2") == true & platiMedIHard(obtiznost) == true)
+                //else if (moznaPole.Contains("B2") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "B2";
-                else if (moznaPole.Contains("A1") == true & platiMedIHard(obtiznost) == true)
+                //else if (moznaPole.Contains("A1") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "A1";
-                else if (moznaPole.Contains("A3") == true & platiMedIHard(obtiznost) == true)
+                //else if (moznaPole.Contains("A3") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "A3";
-                else if (moznaPole.Contains("C1") == true & platiMedIHard(obtiznost) == true)
+                //else if (moznaPole.Contains("C1") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "C1";
-                else if (moznaPole.Contains("C3") == true & platiMedIHard(obtiznost) == true)
+                //else if (moznaPole.Contains("C3") == true & platiMedIHard(obtiznost) == true)
                     souradnice = "C3";
-                else if (moznaPole.Contains("A2") == true & obtiznost == "easy")
+                //else if (moznaPole.Contains("A2") == true & obtiznost == "easy")
                     souradnice = "A2";
-                else if (moznaPole.Contains("B1") == true & obtiznost == "easy")
+                //else if (moznaPole.Contains("B1") == true & obtiznost == "easy")
                     souradnice = "B1";
-                else if (moznaPole.Contains("B3") == true & obtiznost == "easy")
+                //else if (moznaPole.Contains("B3") == true & obtiznost == "easy")
                     souradnice = "B3";
-                else if (moznaPole.Contains("C2") == true & obtiznost == "easy")
+                //else if (moznaPole.Contains("C2") == true & obtiznost == "easy")
                     souradnice = "C2";
                 else
                     souradnice = moznaPole[rnd.Next(moznaPole.Count)];
